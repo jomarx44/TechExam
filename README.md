@@ -9,5 +9,16 @@ This repo if for coding test. Focuses on Online shopping store that users can bu
 ## Run app
 
 -   `yarn install` (For node_modules)
--   `yarn ios`  (For ios)
--   `yarn android` (For android)
+
+### Ios
+-  `cd ios`
+-  `rm -rf Pods`
+-  `pod cache clean --all`
+-  `pod install`
+-  `cd ..`
+-  `yarn ios`
+
+### Android
+-   `yarn android`
+
+
